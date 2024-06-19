@@ -9,9 +9,8 @@ import lombok.Data;
 
 @Data
 @Entity
-public 
-class Book {
-    
+public class Book {
+
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     @Column(name = "ID", updatable = false, nullable = false)
@@ -19,5 +18,7 @@ class Book {
 
     @Column(length = 256, nullable = false)
     private String title;
-    
+
+    @Column(length = 13, nullable = false)
+    private String isbn;
 }
