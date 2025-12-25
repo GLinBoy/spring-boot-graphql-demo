@@ -15,7 +15,7 @@
   <name>graphql</name>
   <description>Demo project for Spring Boot and GraphQL</description>
   <properties>
-    <java.version>23</java.version>
+    <java.version>25</java.version>
     <editorconfig.version>0.2.0</editorconfig.version>
   </properties>
   <dependencies>
